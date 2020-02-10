@@ -1,1 +1,4 @@
 # Password-Generator-Python-Version-
+
+# Project Description
+The purpose of this project is to create a real basic password generator with python. Some things i used for creating the password generator were to creat a list with 75 elements all of which contain upper, and lower case numbers as well as integers values 0,9 and also some symbols to make guessing the password harder. In addition i used a built in module called import random which gives you some functions to generate a random number. to generate a random number you can use something like random.randint(0,20) for example. In my project i just used characters which is the name of the list and but rather than index myself i can pass this value to any variable to generate a random character from anywhere in the list with characters[random.randint(0,75)]. this line of code will choose any element in the list and assign it to the variables which indicated with char1 etc. 
